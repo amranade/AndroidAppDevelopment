@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PicturePuzzle</string>
+    <string name="try_again_button">Try Again</string>
+    <string name="you_won_text">You Won! Play Another</string>
+</resources>

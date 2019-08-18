@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <TableRow>
+            <TextView
+                android:textSize="20sp"
+                android:text="@string/name_registration_label"/>
+            <EditText
+                android:id="@+id/registration_name_text"
+                android:layout_width="200sp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="20sp"
+                android:text="@string/username_registration_label"/>
+            <EditText
+                android:id="@+id/registration_username_text"
+                android:layout_width="200sp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="20sp"
+                android:text="@string/password_registration_label"/>
+            <EditText
+                android:id="@+id/registration_username_password"
+                android:layout_width="200sp"
+                android:inputType="textPassword"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textSize="20sp"
+                android:text="@string/confirm_password_registration_label"/>
+            <EditText
+                android:id="@+id/registration_username_password_confirm"
+                android:layout_width="200sp"
+                android:inputType="textPassword"/>
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:id="@+id/register_submit"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="@string/register_submit_text"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/registration_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@android:string/cancel"
+        android:clickable="true"/>
+</LinearLayout>

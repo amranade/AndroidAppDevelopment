@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CaptchaKing</string>
+    <string name="captcha_king_title">CAPTCHA KING</string>
+    <string name="start_new_game_button">Start New Game</string>
+    <string name="submit_gameplay">SUBMIT</string>
+    <string name="results_scores">Scores</string>
+    <string name="results_net_time">Net Time</string>
+</resources>

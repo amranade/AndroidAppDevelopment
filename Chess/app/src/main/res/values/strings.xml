@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Chess</string>
+    <string name="chess_title">Chess</string>
+    <string name="chess_register_link_text">Register</string>
+    <string name="login_submit_text">Login</string>
+    <string name="username_registration_label">Username:</string>
+    <string name="password_registration_label">Password:</string>
+    <string name="confirm_password_registration_label">Confirm Password:</string>
+    <string name="register_submit_text">Register</string>
+    <string name="name_registration_label">Name:</string>
+    <string name="registraction_activity_title">Registration</string>
+</resources>

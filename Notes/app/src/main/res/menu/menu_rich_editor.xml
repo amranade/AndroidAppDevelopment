@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.notes.activities.RichEditorActivity">
+    <item
+        android:id="@+id/action_note_type_switch"
+        android:title="Style"
+        android:checkable="true"
+        app:showAsAction="always" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/style_paragraph_menu"
+                    android:title="TEXT" />
+                <item
+                    android:id="@+id/style_checkbox_menu"
+                    android:title="CHECKBOX" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_share"
+        android:title="Share"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_share"
+        />
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/action_delete"
+        app:showAsAction="always" />
+</menu>

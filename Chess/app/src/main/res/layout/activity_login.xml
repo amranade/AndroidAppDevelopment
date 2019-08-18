@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chess_title"
+        android:textSize="40sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/login_submit"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="@string/login_submit_text"/>
+
+    <TextView
+        android:id="@+id/registration_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/chess_register_link_text"
+        android:layout_marginTop="80dp"
+        android:clickable="true"/>
+</LinearLayout>
