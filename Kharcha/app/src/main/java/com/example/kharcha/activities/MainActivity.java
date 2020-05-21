@@ -17,7 +17,9 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.sql.Timestamp;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 import androidx.annotation.NonNull;
@@ -69,7 +71,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Here, user is available
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                User userModel = new User(user.getDisplayName());
+                Date date= new Date();
+                long time = date.getTime();
+                Timestamp ts = new Timestamp(time);
+                User userModel = new User(user.getDisplayName(), ts);
                 mDatabase.child("users").child(user.getUid()).setValue(userModel);
             }
         });
